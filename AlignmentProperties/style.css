@@ -1,0 +1,34 @@
+/*
+Propiedades para la alineación de los items (elementos):
+    Justify-items
+    Align-items
+    Place-items
+Propiedades para la alineación del container(El Contenedor):
+    Justify-content
+    Align-content
+    Place-content
+Propiedades para la alineación de un solo item individual
+    Justify-self
+    Align-self
+    Place-self
+*/
+
+.contenedor {
+    border: 5px solid green;
+    background-color: yellowgreen;
+    display: grid;
+    grid-template-rows: 200px 200px;
+    grid-auto-columns: 200px; /*Indica el tamaño para todas las columnas*/
+    grid-auto-flow: column; /*Modifica como se llena el grid*/
+    gap: 20px; /*Espaciado entre rows y columns*/
+    height: 600px;
+    place-content: center;
+  }
+  
+  .item {
+    border: 5px solid #00bcd4;
+    background-color: bisque;
+    font-size: 2rem;
+    justify-self: end;
+    align-self: flex-end;
+  }
