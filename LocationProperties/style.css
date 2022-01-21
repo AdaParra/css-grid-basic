@@ -22,7 +22,7 @@ Definimos las 4 ubicaciones donde comienza y terminan las filas y columnas
     grid-template-areas: 
     "one    two     two"
     "three  three   four"
-    "five   five    five";
+    "five   six    seven";
     height: 700px;
 }
 
@@ -31,31 +31,36 @@ Definimos las 4 ubicaciones donde comienza y terminan las filas y columnas
   }
 
 .item-1 {
-    border: 5px solid #e1bee7;
-    background-color: #fff1ff;
+    background-color: #07f813;
     grid-area: one;
 }
 
 .item-2 {
-    border: 5px solid #e1bee7;
-    background-color: #fff1ff;
+    background-color: #0ac704d7;
     grid-area: two;
 }
 
 .item-3 {
-    border: 5px solid #e1bee7;
-    background-color: #fff1ff;
+    background-color: #076b03;
     grid-area: three;
 }
 
 .item-4 {
-    border: 5px solid #e1bee7;
-    background-color: #fff1ff;
+    background-color: #07f813;
     grid-area: four;
 }
 
 .item-5 {
-    border: 5px solid #e1bee7;
-    background-color: #fff1ff;
+    background-color: #07f813;
     grid-area: five;
+}
+
+.item-6 {
+    background-color: #0ac704d7;
+    grid-area: six;
+}
+
+.item-7 {
+    background-color: #076b03;
+    grid-area: seven;
 }
